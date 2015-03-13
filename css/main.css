@@ -1,0 +1,187 @@
+html {
+  background-color: #fff;
+  color: #000;
+  box-sizing: border-box;
+  font-family: 'Noto Sans';
+
+}
+
+body {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.medallion {
+  width: 17%;
+  margin: 1em;
+  padding: 0em;
+  border: 0px;
+  position: relative;
+}
+
+header {
+  background-color: #e7001d;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.5em;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  text-shadow: ;
+  top: 20px;
+}
+
+h2 {
+  font-size: 1em;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  text-shadow: ;
+  top: 85px;
+}
+
+nav {
+  overflow: hidden;
+  margin: 0;
+  clear: left;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: left;
+  float: left;
+  width: 50%;
+  border: 1px solid #000;
+  padding: 0.5em;
+  background-color: #222222;
+}
+
+nav a {
+  padding: 0.5em;
+  margin: 0.20em;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.15rem;
+}
+
+nav li:hover {
+  background-color: #929292;
+}
+
+.banner {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.image1 {
+  position: relative;
+}
+
+
+h3 {
+  color: #fff;
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 400;
+  position: absolute;
+  right: 50%;
+  bottom: 20px;
+  margin: 0;
+  transform: translateX(50%);
+}
+
+h4 {
+  color: #000;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em;
+}
+
+h5 {
+  color: #fff;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em;
+}
+
+p {
+  margin: 1em;
+}
+
+.dragon {
+  background-color: #e4c22a;
+  margin: 0;
+  position: relative;
+}
+
+.goat {
+  background-color: #222222;
+  margin: 0;
+}
+
+.rooster {
+  background-color: #bc0017;
+  margin: 0;
+}
+
+.ox {
+  background-color: #e4c22a;
+  margin: 0;
+}
+
+.left {
+  width: 50%;
+  padding: 3em;
+
+}
+
+.right {
+  width: 50%;
+  padding: 3em;
+  float: left;
+}
+
+.subtitle1 {
+  font-style: italic;
+  color: #000;
+  margin-bottom: 0em;
+  padding: 1em;
+  text-align: center;
+}
+
+.subtitle2 {
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 0em;
+  padding: 1em;
+  text-align: center;
+}
+
+footer {
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+nav .top:hover {
+  color: #000;
+}
