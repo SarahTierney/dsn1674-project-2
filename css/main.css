@@ -14,11 +14,10 @@ body {
 }
 
 .medallion {
-  width: 17%;
+  width: 7em;
   margin: 1em;
   padding: 0em;
   border: 0px;
-  position: relative;
 }
 
 header {
@@ -26,11 +25,12 @@ header {
   color: #fff;
   text-align: center;
   margin: 0;
+  position: relative;
 }
 
 h1 {
   margin: 0;
-  font-size: 3.5em;
+  font-size: 3.5rem;
   position: absolute;
   right: 50%;
   transform: translateX(50%);
@@ -38,13 +38,11 @@ h1 {
   top: 20px;
 }
 
-h2 {
-  font-size: 1em;
-  position: absolute;
-  right: 50%;
-  transform: translateX(50%);
+span {
+  font-size: 1rem;
   text-shadow: 1px 2px 2px #000;
   top: 85px;
+  display: block;
 }
 
 nav {
