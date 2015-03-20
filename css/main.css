@@ -149,13 +149,13 @@ p {
 
 .left {
   width: 50%;
-  padding: 2em;
+  padding: 1em;
 
 }
 
 .right {
   width: 50%;
-  padding: 2em;
+  padding: 1em;
   float: left;
 }
 
